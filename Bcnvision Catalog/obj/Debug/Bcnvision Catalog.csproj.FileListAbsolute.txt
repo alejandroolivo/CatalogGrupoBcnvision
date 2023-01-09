@@ -1,0 +1,56 @@
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\Bcnvision Catalog.exe.config
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\Bcnvision Catalog.exe
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\Bcnvision Catalog.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\MaterialDesignColors.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\MaterialDesignThemes.Wpf.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\MaterialDesignColors.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\MaterialDesignThemes.Wpf.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Program Files\Bcnvision\Bcnvision Catalog\Bcnvision Catalog.exe.config
+C:\Program Files\Bcnvision\Bcnvision Catalog\Bcnvision Catalog.exe
+C:\Program Files\Bcnvision\Bcnvision Catalog\Bcnvision Catalog.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\FolderCard.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\PresentacionesButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\ProductosButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\InformesButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\ApplicationsButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFBuscador.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFContent.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFExplorer.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFHost.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFLanguage.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFMain.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFStart.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\App.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog_MarkupCompile.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog_MarkupCompile.lref
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\App.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\FolderCard.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\PresentacionesButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\ProductosButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\InformesButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Controls\ApplicationsButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFBuscador.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFContent.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFExplorer.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFHost.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFLanguage.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFMain.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFStart.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.g.resources
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision_Catalog.Properties.Resources.resources
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.csproj.GenerateResource.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.csproj.CoreCompileInputs.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.csproj.CopyComplete
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.exe
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Bcnvision Catalog.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFVersions.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFVersions.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFUpdating.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFUpdating.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\MainWindow.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\MainWindow.baml
+C:\Program Files\Bcnvision\Bcnvision Catalog\Logo.ico
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFPasswordMK.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Debug\Forms\WPFPasswordMK.baml

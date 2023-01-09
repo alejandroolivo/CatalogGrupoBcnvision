@@ -1,0 +1,230 @@
+﻿<Window x:Class="Bcnvision_Catalog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bcnvision_Catalog"
+        xmlns:custom="clr-namespace:Bcnvision_Catalog.Controls"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Bcnvision Catalog" WindowStartupLocation="CenterScreen"
+        Width="1250" Height="800" MinWidth="1250" MinHeight="700" Foreground="{x:Null}" Background="{x:Null}">
+    <Window.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                        BorderThickness="2"
+                        Padding="10,10" 
+                        BorderBrush="#FFFFDD00"                         
+                        CornerRadius="3" Background="#FFFFDD00" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <ContentPresenter HorizontalAlignment="Right" VerticalAlignment="Stretch" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ComboBoxTextBoxStyle" TargetType="{x:Type TextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <Border CornerRadius="5,0,0,5"
+                            BorderThickness="1,1,0,1"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="Black">
+                                <ScrollViewer x:Name="PART_ContentHost"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ComboBoxButtonStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Border 
+                        Background="White" 
+                        x:Name="border" 
+                        CornerRadius="0,5,5,0" 
+                        BorderThickness="0,1,1,1"
+                        BorderBrush="Black">
+                            <ContentPresenter />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style  x:Key="RoundComboBox" TargetType="{x:Type ComboBox}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ComboBox}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition MaxWidth="18"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox Name="PART_EditableTextBox"
+                             Style="{StaticResource ComboBoxTextBoxStyle}"
+                             Padding="5,0,0,0"
+                             Height="{TemplateBinding Height}"/>
+                            <ToggleButton Grid.Column="1" Margin="0"
+                            Height="{TemplateBinding Height}"
+                            Style="{StaticResource ComboBoxButtonStyle}"
+                            Focusable="False"
+                            IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                            ClickMode="Press">
+                                <Path Grid.Column="1"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"
+                                  Data="M 0 0 L 4 4 L 8 0 Z"
+                                  Fill="DodgerBlue" />
+                            </ToggleButton>
+                            <ContentPresenter Name="ContentSite"
+                            Content="{TemplateBinding SelectionBoxItem}"
+                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                            ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Margin="5,0,0,0"/>
+                            <Popup Name="Popup"
+                            Placement="Bottom"
+                            IsOpen="{TemplateBinding IsDropDownOpen}"
+                            AllowsTransparency="True" 
+                            Focusable="False"
+                            PopupAnimation="Slide">
+                                <Grid Name="DropDown"
+                                SnapsToDevicePixels="True"                
+                                MinWidth="{TemplateBinding ActualWidth}"
+                                MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                    <Border 
+                                    x:Name="DropDownBorder"
+                                    BorderThickness="1"
+                                    CornerRadius="5"
+                                    Background="Azure"
+                                    BorderBrush="Black"/>
+                                    <ScrollViewer Margin="4,6,4,6" SnapsToDevicePixels="True">
+                                        <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                    </ScrollViewer>
+                                </Grid>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+    <Grid ClipToBounds="True">
+        <Grid.Resources>
+            <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type ToggleButton}">
+                <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" 
+                    BorderBrush="{TemplateBinding BorderBrush}">
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+            </ControlTemplate>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="2"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="headerPrincipal" Grid.Row="0" ClipToBounds="True" Background="#FFFFDD00" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="380"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0">
+                <Grid>
+                    <Image HorizontalAlignment="Left" Margin="20,0,0,0" Height="50" VerticalAlignment="Stretch" Width="332" Source="Resources/Backgrounds/Grupo Bcnvision.png"/>
+
+                </Grid>
+            </Border>
+            <Border Grid.Column="1">
+                <ComboBox x:Name="cmbBuscar" HorizontalAlignment="Stretch" Height="60" VerticalAlignment="Center" 
+                         Margin="0,0,0,0" Foreground="White" Text="buscar"  FontSize="24"
+                         TextBoxBase.TextChanged="ComboBox_TextChanged" IsEditable="True" 
+                          BorderBrush="#89000000" Cursor="IBeam" StaysOpenOnEdit="True" 
+                          IsTextSearchEnabled="False" KeyDown="CmbBuscar_KeyDown" 
+                          GotFocus="CmbBuscar_GotFocus" VerticalContentAlignment="Center" 
+                          Padding="10,4,4,4" UseLayoutRounding="True" FontFamily="Dubai Light"
+                          >
+                          <!--materialDesign:HintAssist.Hint="buscar"--> 
+                    <ComboBox.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.2">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </ComboBox.Background>
+                </ComboBox>
+            </Border>
+            <Border Grid.Column="2">
+                <ToggleButton x:Name="btnBuscar" Height ="45" Width="45" Margin="5,5,5,5" HorizontalAlignment="Stretch" Cursor="Hand"
+                      Style="{StaticResource MaterialDesignActionAccentToggleButton}"
+                      IsChecked="False" Background="Black" BorderBrush="Black" Foreground="#DDFFFFFF" Click="BtnBuscar_Click" Checked="BtnBuscar_Checked">
+                    <materialDesign:PackIcon Kind="Magnify" Width="30" Height="30"/>
+                    <materialDesign:ToggleButtonAssist.OnContent>
+                        <materialDesign:PackIcon Kind="Close" Width="30" Height="30"/>
+                    </materialDesign:ToggleButtonAssist.OnContent>
+                </ToggleButton>
+            </Border>
+            <Border Grid.Column="6">
+                <ToggleButton Name="BtnHome" Height ="60" Width="60" Margin="5,5,5,5" HorizontalAlignment="Stretch" Cursor="Hand"
+                      Style="{StaticResource MaterialDesignActionDarkToggleButton}"
+                      IsChecked="False" Click="BtnHome_Click" Background="#FF232323" Checked="BtnHome_Checked">
+                    <materialDesign:PackIcon Kind="House" Width="35" Height="35"/>
+                    <materialDesign:ToggleButtonAssist.OnContent>
+                        <materialDesign:PackIcon Kind="House" Width="35" Height="35"/>
+                    </materialDesign:ToggleButtonAssist.OnContent>
+                </ToggleButton>
+            </Border>
+            <Border Grid.Column="4">
+                <ToggleButton x:Name="btnVersiones" Height ="60" Width="60" Margin="5,5,5,5" HorizontalAlignment="Stretch" Cursor="Hand"
+                      Style="{StaticResource MaterialDesignActionDarkToggleButton}"
+                      IsChecked="False" Background="#FF232323" Click="BtnVersiones_Click">
+                    <materialDesign:PackIcon Kind="NoteMultiple" Width="35" Height="35"/>
+                    <materialDesign:ToggleButtonAssist.OnContent>
+                        <materialDesign:PackIcon Kind="ArrowBackCircle" Width="35" Height="35"/>
+                    </materialDesign:ToggleButtonAssist.OnContent>
+                </ToggleButton>
+            </Border>
+            <Border Grid.Column="5">
+                <ToggleButton x:Name="btnIdioma" Height ="60" Width="60" Margin="5,5,5,5" HorizontalAlignment="Stretch" Cursor="Hand"
+                      Style="{StaticResource MaterialDesignActionDarkToggleButton}"
+                      IsChecked="False" Checked="ToggleButtonIdioma_Checked" Unchecked="BtnIdioma_Unchecked" Background="#FF232323">
+                    <materialDesign:PackIcon Kind="Settings" Width="35" Height="35"/>
+                    <materialDesign:ToggleButtonAssist.OnContent>
+                        <materialDesign:PackIcon Kind="ArrowBackCircle" Width="35" Height="35"/>
+                    </materialDesign:ToggleButtonAssist.OnContent>
+                </ToggleButton>
+            </Border>
+            <Border Grid.Column="6"/>
+        </Grid>
+        <Grid Grid.Row="1" ClipToBounds="True">
+            <Grid Name="_grid" />
+        </Grid>
+    </Grid>
+</Window>

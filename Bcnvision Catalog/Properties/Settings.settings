@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bcnvision_Catalog.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DriveUnit" Type="System.String" Scope="User">
+      <Value Profile="(Default)">K</Value>
+    </Setting>
+    <Setting Name="Company" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nevitec</Value>
+    </Setting>
+    <Setting Name="LanguageMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Spanish</Value>
+    </Setting>
+    <Setting Name="DrivePwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bcnvision2022</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

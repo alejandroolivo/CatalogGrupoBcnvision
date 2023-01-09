@@ -1,0 +1,121 @@
+﻿<Window x:Class="Bcnvision_Catalog.Forms.WPFBuscador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bcnvision_Catalog.Forms"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:custom="clr-namespace:Bcnvision_Catalog.Controls"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"        
+         FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="WPFMain" Height="639" Width="1068.5"
+        WindowStyle="None" Foreground="Transparent" >
+    <!--<Window.Background>
+        <ImageBrush ImageSource="/Forms/Fondo_Team_Nevitec_Claro1920x1080.jpg"/>
+    </Window.Background>-->
+    <Grid Grid.Row="1" ClipToBounds="True">
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width ="0.7*"/>
+            <ColumnDefinition Width ="2*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" BorderBrush="Transparent" BorderThickness="0" ClipToBounds="True">
+            <Grid Grid.Row="1" ClipToBounds="True">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height ="0.5*"/>
+                    <RowDefinition Height ="2*"/>
+                </Grid.RowDefinitions>
+                <Image x:Name="LogoPrincipal" Margin="20,0,60,0"  Source="/Bcnvision Catalog;component/Resources/Images/logo bcnvision fondo blanco.png" />
+
+                <Grid Grid.Column="0" Grid.Row="1">
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width ="00"/>
+                        <ColumnDefinition Width ="1*"/>
+                        <ColumnDefinition Width ="00"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="Titulo" Text="Titulo" FontSize="30" Margin="30,0,0,0" Grid.Row="0" Grid.Column="1" Foreground="#DD000000" FontWeight="Bold" Cursor="Arrow" Focusable="False"  />
+
+                    <!-- Rounded yellow border --><!--
+                    <Border Grid.Column="1" Grid.Row="1" Margin="30,20,0,0" BorderThickness="10" BorderBrush="#FF3F3F3F" CornerRadius="10" Padding="5">
+                        <Grid>
+                            --><!-- Rounded mask (stretches to fill Grid) --><!--
+                            <Border Name="mask" Background="White" CornerRadius="7"/>
+                            --><!-- Main content container --><!--
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                --><!-- Use a VisualBrush of 'mask' as the opacity mask --><!--
+                                <StackPanel.OpacityMask>
+                                    <VisualBrush Visual="{Binding ElementName=mask}"/>
+                                </StackPanel.OpacityMask>
+                                --><!-- Any content --><!--
+                                <Image x:Name="folderImage"  Stretch="UniformToFill"/>
+
+                            </StackPanel>
+                        </Grid>
+                    </Border>-->
+                </Grid>
+
+
+
+            </Grid>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" BorderBrush="Transparent" BorderThickness="0" ClipToBounds="True">
+            <Grid ClipToBounds="True">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width ="10"/>
+                    <ColumnDefinition Width ="1*"/>
+                    <ColumnDefinition Width ="20"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" Grid.Column="1" Margin="45">
+                    <ProgressBar Name="progressPage" Minimum="0" Maximum="100" Value="100" BorderBrush="#FFEFE39A" Background="#FFEFE39A"/>
+                </Grid>
+                <!--<WrapPanel Margin="0,0,0,0" Name="wrapPanel" Grid.Row="2" Grid.Column="1"/>-->
+
+                <!--<Label Name="txtExplorerHeaderText" Content="Ruta" FontSize="30" FontWeight="Bold" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="50,-20,10,10" VerticalAlignment="Center" Foreground="Black" Background="{x:Null}"/>-->
+
+                <Border Grid.Row="1" Grid.Column="2" >
+
+
+                </Border>
+                <Border Grid.Row="1" Grid.Column="0" >
+
+
+                </Border>
+
+                <Border x:Name="borderCentral"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" BorderBrush="Transparent" BorderThickness="0" ClipToBounds="True">
+                    <Grid Background="Transparent" Name="_gridLayoutExplorer" Opacity="1" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                            <WrapPanel Name="wrapPanelContent" Grid.Row="0" Grid.Column="1" Orientation="Vertical" Cursor="Hand" >
+
+                            </WrapPanel>
+                        </ScrollViewer>
+                    </Grid>
+
+                </Border>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+
+</Window>

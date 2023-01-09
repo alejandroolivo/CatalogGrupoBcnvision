@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bcnvision Catalog", "Bcnvision Catalog\Bcnvision Catalog.csproj", "{5A708341-5E1D-43C0-9193-96A8CF3A765B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupBcnCatalog", "SetupBcnCatalog\SetupBcnCatalog.vdproj", "{E86AFE0E-9E5F-44B9-9085-D0916B0ADF9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A708341-5E1D-43C0-9193-96A8CF3A765B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A708341-5E1D-43C0-9193-96A8CF3A765B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A708341-5E1D-43C0-9193-96A8CF3A765B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A708341-5E1D-43C0-9193-96A8CF3A765B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86AFE0E-9E5F-44B9-9085-D0916B0ADF9E}.Debug|Any CPU.ActiveCfg = Debug
+		{E86AFE0E-9E5F-44B9-9085-D0916B0ADF9E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76354C32-EC8B-41C3-A05B-3020C98A21A1}
+	EndGlobalSection
+EndGlobal

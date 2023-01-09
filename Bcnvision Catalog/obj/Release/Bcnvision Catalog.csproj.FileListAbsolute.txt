@@ -1,0 +1,91 @@
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\FolderCard.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\PresentacionesButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\ProductosButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\InformesButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\ApplicationsButton.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFBuscador.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFContent.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFExplorer.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFLanguage.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFMain.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFStart.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\MainWindow.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\App.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\GeneratedInternalTypeHelper.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog_MarkupCompile.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog_MarkupCompile.lref
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\App.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\FolderCard.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\PresentacionesButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\ProductosButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\InformesButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Controls\ApplicationsButton.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFBuscador.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFContent.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFExplorer.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFLanguage.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFMain.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFStart.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\MainWindow.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.g.resources
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\cmd_catalogo.bat
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Logo.ico
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Bcnvision Catalog.exe.config
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Bcnvision Catalog.exe
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Bcnvision Catalog.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\BitlockerManager.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\log4net.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\MaterialDesignColors.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\MaterialDesignThemes.Wpf.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Newtonsoft.Json.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Client.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.ClientControls.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.ComInterop.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Configuration.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Core.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Server.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.ServerControls.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\PInvoke.Kernel32.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\PInvoke.Windows.Core.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Buffers.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.IO.FileSystem.AccessControl.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Memory.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Numerics.Vectors.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.AccessControl.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.Permissions.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.Principal.Windows.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Threading.Tasks.Extensions.dll
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\log4net.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\MaterialDesignColors.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\MaterialDesignThemes.Wpf.pdb
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\MaterialDesignThemes.Wpf.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Newtonsoft.Json.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Client.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Configuration.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Core.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\Opc.Ua.Server.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\PInvoke.Kernel32.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\PInvoke.Windows.Core.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Buffers.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.IO.FileSystem.AccessControl.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Memory.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Numerics.Vectors.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.AccessControl.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.Permissions.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Security.Principal.Windows.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\bin\Release\System.Threading.Tasks.Extensions.xml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFHost.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFUpdating.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFVersions.g.cs
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFHost.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFUpdating.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Forms\WPFVersions.baml
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision_Catalog.Properties.Resources.resources
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.csproj.GenerateResource.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.csproj.CoreCompileInputs.cache
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.csproj.CopyComplete
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.exe
+H:\6. Bcnvision Catalog\Bcnvision Catalog\Bcnvision Catalog\obj\Release\Bcnvision Catalog.csprojAssemblyReference.cache

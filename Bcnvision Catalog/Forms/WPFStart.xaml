@@ -1,0 +1,94 @@
+﻿<Window x:Class="Bcnvision_Catalog.Forms.WPFStart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bcnvision_Catalog.Forms"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="Login" Height="450" Width="700"
+        MinHeight="450" MinWidth="700" MaxHeight="450" MaxWidth="700"
+        WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Bcnvision Catalog;component/Resources/Images/bckground propuesta.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" Background="#FFDD00">
+            <Image Source="/Bcnvision Catalog;component/Resources/Images/logo grupo bcnvision.png" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="200" />
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+            <Grid.Background>
+                <ImageBrush/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel  Grid.Column="0" Grid.Row="0" >
+
+                <StackPanel Margin="0,0,0,0" Width="40" Height="40">
+                    <StackPanel.Background>
+                        <SolidColorBrush Color="White" Opacity="0.65"/>
+                    </StackPanel.Background>
+                    <Image Margin="4" Width="32" Height="32" HorizontalAlignment="Center" Source="/Bcnvision Catalog;component/Resources/Icons/login.png" OpacityMask="White"/>
+
+                </StackPanel>
+                <TextBox x:Name="txtUser" FontSize="18" Margin="0,0,0,0" Width="250" Height="40" Focusable="True" CaretBrush="#FFFFDD00" SelectionBrush="#FFF5E476">
+                    <TextBox.Background>
+                        <SolidColorBrush Color="#FFFBFBFB" Opacity="0.65"/>
+                    </TextBox.Background>
+
+                </TextBox>
+
+            </DockPanel>
+            <DockPanel  Grid.Column="0" Grid.Row="1" >
+                <StackPanel Margin="0,0,0,0" Width="40" Height="40">
+                    <StackPanel.Background>
+                        <SolidColorBrush Color="White" Opacity="0.65"/>
+                    </StackPanel.Background>
+                    <Image Margin="4" Width="32" Height="32" HorizontalAlignment="Center" Source="/Bcnvision Catalog;component/Resources/Icons/password-76.png" OpacityMask="White"/>
+
+                </StackPanel>
+
+                <PasswordBox x:Name="txtPassword" FontSize="18" Margin="0,0,0,0" Width="250" Height="40" Focusable="True" CaretBrush="#FFFFDD00" SelectionBrush="#FFF5E476" KeyDown="TxtPassword_KeyDown">
+                    <PasswordBox.Background>
+                        <SolidColorBrush Color="#FFFBFBFB" Opacity="0.65"/>
+                    </PasswordBox.Background>
+
+                </PasswordBox>
+
+            </DockPanel>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.Background>
+                    <ImageBrush/>
+                </Grid.Background>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnEnter" Content="Enter" FontSize="20" Width="120" Height="40" Grid.Row="0" Grid.Column="0" Background="White" BorderBrush="White" Foreground="#DD000000" Click="BtnEnter_Click">
+
+                </Button>
+                <Button x:Name="btnCancel" Content="Cancel" FontSize="20" Width="120" Height="40" Grid.Row="0" Grid.Column="1" Background="White" BorderBrush="White" Foreground="#DD000000" Click="BtnCancel_Click">
+
+                </Button>
+            </Grid>
+
+
+        </Grid>
+    </Grid>
+</Window>
